@@ -1,7 +1,7 @@
 /**
  * Your plugin name and a small description
  * Author: Sergey Glukhov, AnjLab (http://anjlab.com)
- * Version: 0.1
+ * Version: 0.0.1
  */
 
 (function($){
