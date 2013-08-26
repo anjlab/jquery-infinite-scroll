@@ -1,0 +1,30 @@
+{
+    "name": "infiniteScroll",
+    "version": "0.0.1",
+    "title": "infiniteScroll - JQuery plugin for ajax-enabled infinite page scroll / auto paging",
+    "author": {
+        "name": "Sergey Glukhov",
+        "url": "http://anjlab.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        },
+        {
+            "type": "GPL-2.0",
+            "url": "http://opensource.org/licenses/GPL-2.0"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.4.3"
+    },
+    "description": "There are a lot of jQuery plugins for infinite page scrolling function. However none of them matched my needs when I faced the problem. So this is a very simple plugin which makes ajax call to load more data on the page and gives some basic callbacks like data loading started or data did loaded.",
+    "keywords": [
+        "infinite-scrolling",
+        "auto-paging"
+    ],
+    "homepage": "https://github.com/anjlab/jquery-infinite-scroll",
+    "docs": "https://github.com/anjlab/jquery-infinite-scroll",
+    "bugs": "https://github.com/anjlab/jquery-infinite-scroll/issues"
+}
