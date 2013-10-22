@@ -36,9 +36,8 @@
 
         function onDataLoaded(data) {
             var prev = $('.last-scroll-row');
-            var content = $(data);
-            if (prev.length && content.length) {
-                content.insertAfter(prev);
+            if (prev.length && data.length) {
+                prev.after(data);
                 prev.removeClass('last-scroll-row');
                 $this.find(opts.itemSelector + ':last').addClass('last-scroll-row');
                 scrollTriggered = 0;
